@@ -1,1 +1,90 @@
 /* Your code here */
+.masthead{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "menu_search . action"
+    ". tech ."
+    "date logo paper";
+}
+
+.masthead__menu-and-search{
+    grid-area: menu_search;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.masthead__actions{
+    grid-area: action;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.masthead__technologies{
+    grid-area: tech;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    background-color: white;
+}
+
+.masthead__date{
+    grid-area: date;
+}
+
+.masthead__logo{
+    grid-area: logo;
+}
+
+.masthead__paper{
+    grid-area: paper;
+}
+
+.masthead__button_icons{
+    font-size: 11px;
+    padding:7px 9px;
+}
+
+.masthead__button_icons:hover{
+    background-color: #f7f7f5;
+}
+
+.technology{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    margin:5px;
+    align-items: center;
+}
+
+.masthead__logo{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+.masthead__date {
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+
+.masthead__paper{
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
