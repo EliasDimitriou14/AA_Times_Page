@@ -1,1 +1,13 @@
 /* Your code here */
+.main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size:12px;
+    margin-top: 10px;
+}
