@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.5fr;
     column-gap: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding:10px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -13,23 +13,22 @@
 }
 
 .interests-bar__image{
-    height:80%;
-    width: 80%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
 }
 
 .interests-bar__headline{
     font-weight: bold;
-    font-size: 10px;
-    padding-right: 5px;
+    font-size: 12px;
 }
 
 .headline__story{
-    font-size: 10px;
-    padding-right: 5px;
+    font-size: 12px;
 }
 
 .stock-price{
-    font-size: 11px;
+    font-size: 12x;
 }
 
 .interests-bar__stock-price{
@@ -45,5 +44,8 @@
 .separator {
     border-left: 1px solid black;
     height: 95%;
-    padding: 3px;
+    padding:3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
